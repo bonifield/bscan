@@ -3,13 +3,13 @@
 
 ### requires [IPv4Helper](https://github.com/bonifield/IPv4Helper) library for CIDR generators
 
-# Scan Modes
+## Scan Modes
 ```syn, xmas, fin, null, ack, udp, dns```
 
-# Output Modes
+## Output Modes
 ```color (default), pipe, tsv, csv, json, none```
 
-# Usage Examples:
+## Usage Examples:
 ```
 bscan.py -i 192.168.1.10 -p 80,443 -m syn -t 2
 bscan.py -i 192.168.1.10/28 -p 80,443 -m syn -y csv
