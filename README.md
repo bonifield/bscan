@@ -3,11 +3,22 @@
 
 ### requires [IPv4Helper](https://github.com/bonifield/IPv4Helper) library for CIDR generators
 
-## Scan Modes
+## Scan Modes (-m)
 ```syn, xmas, fin, null, ack, udp, dns```
 
-## Output Modes
+## Output Modes (-y)
 ```color (default), pipe, tsv, csv, json, none```
+
+## Options
+```
+-i / --ip
+-p / --port
+-m / --mode
+-d / --data
+-t / --timeout
+-y / --outputstyle
+-q / --dnsquery (use with -m dns)
+```
 
 ## Usage Examples:
 ```
@@ -20,3 +31,4 @@ bscan.py -i 192.168.1.10 -p 53,5353 -m dns -q stackoverflow.com
 ```
 
 ### pet project and work in progress
+### null byte payloads are artifacts from a build designed for CTFs (easy for students to signature) and are trivial to remove if desired
