@@ -18,3 +18,5 @@ bscan.py -i 192.168.1.10/28 -p 80,100-200,443 -m syn -d 50 --outputstyle pipe
 bscan.py -i 192.168.1.10 -p 53 -m udp -y json
 bscan.py -i 192.168.1.10 -p 53,5353 -m dns -q stackoverflow.com
 ```
+
+### pet project and work in progress
