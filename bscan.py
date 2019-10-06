@@ -241,7 +241,7 @@ def sendCheck(pkt, mode, tout):
 				return {'state':'other_ICMP', 'message':str('received ICMP type {} code {}'.format(ty, co))}
 	else:
 		return {'state':'other', 'message':'other'}
-		x.show()
+		#x.show()
 
 
 def printColumnHeaders():
