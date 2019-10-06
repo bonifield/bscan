@@ -6,16 +6,16 @@
 ## Scan Modes (-m)
 ```syn, xmas, fin, null, ack, udp, dns```
 
-## Output Modes (-y)
+## Output Style Modes (-y)
 ```color (default), pipe, tsv, csv, json, none```
 
 ## Options
 ```
--i / --ip
--p / --port
+-i / --ip (single IP or CIDR, or IP/CIDR [will auto-detect subnet boundaries])
+-p / --port (single or formatted like 100,200,300-305)
 -m / --mode
--d / --data
--t / --timeout
+-d / --data (X number of null bytes in TCP payload, see note below)
+-t / --timeout (in seconds, defaults to 0.15)
 -y / --outputstyle
 -q / --dnsquery (use with -m dns)
 ```
