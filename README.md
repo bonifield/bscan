@@ -7,7 +7,7 @@
 ```syn, xmas, fin, null, ack, udp, dns```
 
 ## Output Style Modes (-y)
-```color (default), pipe, tsv, csv, json, none```
+```color (default), pipe, tsv, csv, json, none (same visually as color, but no ANSI color codes)```
 
 ## Options
 ```
